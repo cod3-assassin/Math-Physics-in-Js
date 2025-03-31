@@ -39,4 +39,4 @@ function groupNumbers(arr) {
   return arr;
 }
 
-console.log(groupNumbers([2, 3, 4, 5, 6, 27, 50]));
+console.log(groupNumbers([2, 3, 4, 5, 6, 27, 36, 50, 55, 25]));
