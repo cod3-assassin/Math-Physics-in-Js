@@ -1,5 +1,9 @@
 function surfaceAreaOfCuboid(length, width, height) {
-  console.log("Hello");
+  let lw = 2 * length * width;
+  let lh = 2 * length * height;
+  let wh = 2 * width * height;
+
+  return lw + lh + wh;
 }
 
-surfaceAreaOfCuboid();
+console.log(surfaceAreaOfCuboid(8, 5, 4));
